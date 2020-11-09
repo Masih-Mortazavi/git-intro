@@ -102,28 +102,28 @@ git merge kian/master
 
 ### Step 1: We create a folder in q:/Lean/Data/Git call "Project1"
 
-![](capture.PNG)
+![](Capture.PNG)
 
 ### Step 2: We create an R script inside this Project1 folder
 
 -   Inside the Rscript we can type in anything we want.
 
-![](capture1.PNG)
+![](Capture1.PNG)
 
 -   Here, I type in a comment and a simple print statement and save it as "main.R".
 
 ### Step 3: We need to initialise this directory to tell Git that we are going to be working on this directory.
 
 -   We go back to the Git folder, right click on "Project1" and click Git Bash here.
-    ![](capture3.PNG)
+    ![](Capture3.PNG)
 
 -   We then proceed to type in `git init`
-    ![](capture4.PNG)
+    ![](Capture4.PNG)
 
 -   After which, we need to inform Git of the newly created "main.R" file. This is done using `git add .`| Do take note of the period sign at the end.
 
 -   We then do a `git commit -m "Added original file"` to finalise the storage.
-    ![](capture5.PNG)
+    ![](Capture5.PNG)
 
 -   Here, they tell us that we have made 2 changes (2 insertions). These insertion refers to the insert of a comment and a print statement.
 
@@ -132,20 +132,20 @@ git merge kian/master
 -   To do this, go to your folder that you will like the file to be stored.
 -   In this example, I will store it in my Desktop/Git directory.
 -   I will move to C:/Users/kianweelee/Desktop/Git , right-click and click on Git Bash here.
-    ![](capture6.PNG)
+    ![](Capture6.PNG)
 -   Here, I will start to clone the file from the Q: drive to my local pc using `git clone q:/Lean/Data/Git/Project1 myrepo`. myrepo will be the name of the file I have cloned. You can name it whatever you want.
-    ![](capture7.PNG)
+    ![](Capture7.PNG)
 
 ### Step 5: Make changes to the Rscript
 
 -   Before we make any changes, make sure to `cd myrepo`. This will move us to the newly created directory, myrepo.
-    ![](capture8.PNG)
+    ![](Capture8.PNG)
 -   Now we will make changes to the RScript. For this example, we will just add in a comment and another print statement.
 
 ![](121.PNG)
 
 -   Back to bash, we need to tell Git about the changes using `git add .` and `git commit -m "Changes 1"`
-    ![](capture.PNG)
+    ![](Capture.PNG)
 
 ### Step 6: Move back to Q: drive and fetch in the changes
 
