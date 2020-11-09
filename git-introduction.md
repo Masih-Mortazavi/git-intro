@@ -151,6 +151,7 @@ git merge kian/master
 ![](gfgfgf.PNG)
 
 -   Now, we can proceed with the fetching using `git fetch kian`
+
     ![](qqss.PNG)
 
 -   Next, we want to see what changes are made before doing a final merge. This is done using `git log -p master..kian/master`
