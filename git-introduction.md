@@ -1,8 +1,3 @@
----
-title: "Git Introduction"
-tags: ""
----
-
 # Introduction to Git
 
 For this example, we will be using 2 types of directories: 
@@ -118,6 +113,7 @@ git merge kian/master
     ![](Capture3.PNG)
 
 -   We then proceed to type in `git init`
+
     ![](Capture4.PNG)
 
 -   After which, we need to inform Git of the newly created "main.R" file. This is done using `git add .`| Do take note of the period sign at the end.
