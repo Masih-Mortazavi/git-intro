@@ -23,8 +23,4 @@ commit on the local5th push but change the github before refreshing the browser
 
 Could not edit before refreshing changes till local 5th commit merged (i.e. line 22)
 
-making local changes on the sameline 26 that github 6th commit happend 
-
-making local changes  
-
-making local commit 6th now push to make conflict
+commit on github 6th on line 26 (will not pull on the local , making local change on line 26 then push)
