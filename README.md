@@ -26,3 +26,5 @@ Could not edit before refreshing changes till local 5th commit merged (i.e. line
 commit on github 6th on line 26 (will not pull on the local , making local change on line 26 then push)
 
 make changes in local on line 28 commit not push then make hub change on the same line
+
+Making commit hub on line30 not pusll on local first 
